@@ -17,3 +17,9 @@ y = [1, 2, 3]
 
 print(x == y)
 print(x is y)
+
+# Membership Operators
+fruits = ["apple", "banana", "cherry"]
+
+print("banana" in fruits)
+print("pineapple" not in fruits)
